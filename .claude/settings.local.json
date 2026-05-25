@@ -66,7 +66,16 @@
       "Bash(node scripts/add_fallen_angel_series.mjs)",
       "Bash(node scripts/add_cup_size.mjs)",
       "Bash(grep -c '\"id\": \"__TRACKED_VAR__\"' index.html)",
-      "Bash(awk '/const PARENT_CATEGORIES = \\\\[/,/^\\\\];$/ {print NR\": \"$0}' \"c:\\\\AIProjects\\\\001專案完成區\\\\美片咒語產生器\\\\index.html\")"
+      "Bash(awk '/const PARENT_CATEGORIES = \\\\[/,/^\\\\];$/ {print NR\": \"$0}' \"c:\\\\AIProjects\\\\001專案完成區\\\\美片咒語產生器\\\\index.html\")",
+      "Bash(node scripts/update_succubus_outfit.mjs)",
+      "Bash(node scripts/customize_succubus_outfits.mjs)",
+      "Bash(node scripts/enhance_fallen_angel_outfits.mjs)",
+      "Bash(node scripts/add_cupsize_and_poses.mjs)",
+      "Bash(node scripts/add_safe_poses_all_series.mjs)",
+      "Bash(cd \"c:\\\\AIProjects\\\\001專案完成區\\\\美片咒語產生器\" && mkdir -p backup_versions && mv index_v*.html backup_versions/ && git add backup_versions/ && git add -u)"
+    ],
+    "additionalDirectories": [
+      "C:\\AIProjects\\001專案完成區\\美片咒語產生器"
     ]
   }
 }
