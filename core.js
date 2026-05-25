@@ -108,8 +108,6 @@ const STEP2_BODY_STRUCTURE_EXTENDED = `【真實人體骨架】
 
 布料張力需自然貼合人體結構。
 
-預設罩杯F。
-
 避免動漫式誇張胸型。
 
 避免極端沙漏型身材。
@@ -150,10 +148,82 @@ const STEP2_BODY_STRUCTURE_EXTENDED = `【真實人體骨架】
 
 人物身體必須與真實臉部自然融合。`;
 
+// 動態生成帶罩杯設定的身體結構（根據角色卡的 cupSize 欄位）
+function buildBodyStructureWithCupSize(cupSize) {
+  return `【真實人體骨架】
+
+優先建立真實成年女性骨架。
+
+頭部大小必須與肩膀、身體維持真實人體比例。
+
+保持：
+平衡肩寬、
+真實鎖骨、
+自然胸腔厚度、
+正常軀幹深度、
+自然脖子連接。
+
+維持真實成熟成年女性體積感。
+
+自然豐滿胸型需建立在真實胸腔骨架結構之上。
+
+保持自然胸部重量與真實軀幹厚度。
+
+維持肩膀與胸部之間的自然比例平衡。
+
+胸腔厚度需符合真實人體結構。
+
+布料張力需自然貼合人體結構。
+
+胸型需跟隨姿勢與布料自然變化。
+
+胸部體積需符合真實重力與站姿。
+
+保持成熟成年女性骨架比例。
+
+維持真實可信的人體比例。
+
+罩杯預設${cupSize}。
+
+避免極端沙漏型身材。
+
+避免不合理腰臀比例。
+
+避免動漫式誇張胸型。
+
+避免 AI 性感模板身材。
+
+避免網紅式極細腰身。
+
+避免誇張挺胸姿勢。
+
+避免 Pin-up 女郎姿勢。
+
+維持自然脊椎與身體重心。
+
+人物整體體積感需優先於性感化誇張。
+
+禁止：
+大頭比例、
+壓縮上半身、
+過窄肩膀、
+娃娃比例、
+頭重腳輕、
+身體過小、
+動漫骨架、
+卡通化人體。
+
+人物身體必須與真實臉部自然融合。`;
+}
+
+// 魅魔系列專用版：包含罩杯F設定（保留作為向後兼容）
+const STEP2_BODY_STRUCTURE_SUCCUBUS = buildBodyStructureWithCupSize('F');
+
 // 需要使用擴展版身體描述的風格關鍵字
 // ═══════════════════════════════════════════════════════════
 // 注意：所有角色卡統一使用擴展版身體比例描述
-// 不再需要關鍵字或風格大類判斷
+// 如果角色卡有 cupSize 欄位（英文或數字），則使用帶罩杯設定的版本
+// 魅魔系列使用專用版本（包含罩杯F設定）
 // ═══════════════════════════════════════════════════════════
 
 // ═══════════════════════════════════════════════════════════
@@ -429,8 +499,19 @@ function buildPrompt(styleData) {
   // STEP 1: 身份鎖定
   sections.push(STEP1_IDENTITY_LOCK);
 
-  // STEP 2: 真實人體骨架（統一使用擴展版）
-  sections.push(STEP2_BODY_STRUCTURE_EXTENDED);
+  // STEP 2: 真實人體骨架（根據 cupSize 欄位或系列選擇版本）
+  // 優先檢查 cupSize 欄位（如果有英文或數字）
+  if (styleData.cupSize && /[A-Za-z0-9]/.test(styleData.cupSize)) {
+    sections.push(buildBodyStructureWithCupSize(styleData.cupSize));
+  } else {
+    // 向後兼容：魅魔系列使用預設 F 罩杯
+    const isSuccubusSeries = styleData.sub === '魅魔系列' || styleData.series === '魅魔系列';
+    if (isSuccubusSeries) {
+      sections.push(STEP2_BODY_STRUCTURE_SUCCUBUS);
+    } else {
+      sections.push(STEP2_BODY_STRUCTURE_EXTENDED);
+    }
+  }
 
   // STEP 3: 電影攝影結構
   sections.push(STEP3_CINEMA_STRUCTURE);
