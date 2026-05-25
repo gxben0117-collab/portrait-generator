@@ -509,7 +509,7 @@ body::after{
 
   <div class="app-title-block">
     <div class="app-title">美片咒語產生器</div>
-    <div class="app-version">紅兵開發 · v1.1.1 · 核心規範 v1.7</div>
+    <div class="app-version">紅兵開發 · v1.1.0 · 核心規範 v1.7</div>
   </div>
 
   <div class="sec">
@@ -584,12 +584,6 @@ body::after{
   <div class="sec">
     <div class="sec-label">構圖 / 出圖尺寸</div>
     <div class="chips" id="ratioChips"></div>
-  </div>
-
-  <!-- 鏡頭角度 -->
-  <div class="sec">
-    <div class="sec-label">鏡頭角度</div>
-    <div class="chips" id="angChips"></div>
   </div>
 
   <div class="divider"></div>
@@ -43624,7 +43618,6 @@ function renderAll() {
   renderCategories();
   renderPresets();
   renderRatioChips();
-  renderAngChips();
   updateInputFields();
 }
 
@@ -43792,32 +43785,6 @@ function renderRatioChips() {
   });
 }
 
-function renderAngChips() {
-  const angChips = document.getElementById('angChips');
-  if (!angChips) return;
-
-  const angles = [
-    { id: 'quan', label: '全身', sub: '頭到腳完整' },
-    { id: 'sanfen', label: '三分身', sub: '膝蓋以上' },
-    { id: 'banshen', label: '半身', sub: '腰部以上' },
-    { id: 'huanjing', label: '環境', sub: '人物與場景' },
-    { id: 'zhong', label: '中景', sub: '胸部以上' }
-  ];
-
-  angChips.innerHTML = '';
-
-  angles.forEach(angle => {
-    const chip = document.createElement('div');
-    chip.className = 'chip' + (angle.id === curAngID ? ' active' : '');
-    chip.innerHTML = `${angle.label}<div class="chip-sub">${angle.sub}</div>`;
-    chip.onclick = () => {
-      curAngID = angle.id;
-      renderAngChips();
-    };
-    angChips.appendChild(chip);
-  });
-}
-
 function updateInputFields() {
   const entry = getEntry(curCatID, curEntryID);
   if (!entry) return;
@@ -43893,7 +43860,7 @@ function generateAndCopy(shouldScroll = true) {
     composition: entry.comp,
     effects: entry.fx,
     tone: entry.tone,
-    angle: curAngID || entry.ang,
+    angle: entry.ang,
     ratio: curRatioID || entry.ratio,
     lens: entry.lens,
     lightStyle: entry.light,
