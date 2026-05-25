@@ -1,0 +1,20 @@
+{
+  "name": "beautiful-image-prompt-generator",
+  "version": "1.0.5",
+  "description": "美片咒語產生器",
+  "private": true,
+  "scripts": {
+    "dev": "python -m http.server 8080",
+    "build": "node scripts/rebuild_with_parent_categories.mjs",
+    "build:simple": "node scripts/build_cats_from_md.mjs",
+    "build:old": "node scripts/build.mjs",
+    "sync": "node scripts/sync_cats_to_md.mjs",
+    "add-categories": "node scripts/add_category_to_md.mjs",
+    "lint": "node scripts/lint.mjs",
+    "test": "node scripts/test.mjs",
+    "check": "npm run lint && npm run test && npm run build"
+  },
+  "keywords": ["prompt", "generator", "ai", "portrait"],
+  "author": "紅兵開發",
+  "license": "UNLICENSED"
+}

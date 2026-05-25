@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+*.log
+.vscode/
+待檢查_可能不需要的檔案/
+*.backup.*
+讓CGATGPT GEMINU 幫忙分析圖片咒語 建檔.txt
