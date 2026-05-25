@@ -36,10 +36,23 @@ for (let i = 0; i < lines.length; i++) {
 
   if (!currentEntry) continue;
 
-  const idMatch = line.match(/^- \*\*ID:\*\* `([^`]+)`/);
+  const idMatch = line.match(/^- \*\*ID:\*\* `([^`]+)`/) || line.match(/^- \*\*ID:\*\* ([a-z0-9_]+)/i);
   if (idMatch) {
     currentEntry.id = idMatch[1];
     continue;
+  }
+
+  // Handle ID on next line (format error)
+  if (line === '- **ID:**' || line === '- **ID:** ') {
+    const nextLine = lines[i + 1];
+    if (nextLine) {
+      const nextIdMatch = nextLine.trim().match(/^([a-z0-9_]+)/i);
+      if (nextIdMatch) {
+        currentEntry.id = nextIdMatch[1];
+        i++; // Skip next line
+        continue;
+      }
+    }
   }
 
   const categoryMatch = line.match(/^- \*\*分類:\*\* (.+)/);

@@ -231,10 +231,11 @@ try {
   console.log(`✓ 全部角色卡 prompt 皆低於 5000 字元，最長 ${maxPrompt.length} 字元 (${maxPrompt.id} ${maxPrompt.name})`);
 
   const ui = runUiRuntime();
-  assert(ui.initial.parentPills === 20, `風格大類數量錯誤: ${ui.initial.parentPills}`);
+  assert(ui.initial.parentPills === 22, `風格大類數量錯誤: ${ui.initial.parentPills}`);
   assert(ui.initial.presetCards > 0, '初始角色卡未渲染');
   assert(ui.initial.ratios === 6, `尺寸比例數量錯誤: ${ui.initial.ratios}`);
-  assert(ui.initial.totalEntryCount === '685', `總角色數顯示錯誤: ${ui.initial.totalEntryCount}`);
+  const totalCount = parseInt(ui.initial.totalEntryCount.replace(/,/g, ''));
+  assert(totalCount === 798, `總角色數顯示錯誤: ${ui.initial.totalEntryCount} (期望 798)`);
   assert(ui.random.outputLength > 1200, `快速隨機未產生有效咒語: ${ui.random.outputLength}`);
   assert(ui.random.label && ui.random.label !== '尚未隨機', '快速隨機未更新風格名稱');
   assert(JSON.stringify(ui.random.restoredScroll) === JSON.stringify([0, 360]), '快速隨機未保持原捲動位置');
