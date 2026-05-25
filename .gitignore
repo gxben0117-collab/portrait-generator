@@ -1,7 +1,49 @@
+# 依賴
 node_modules/
+
+# 系統文件
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# 日誌文件
 *.log
+
+# 編輯器
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 臨時目錄和文件
 待檢查_可能不需要的檔案/
+temp/
+tmp/
+*.tmp
+*.temp
+
+# 備份文件
 *.backup.*
+*_备份_*.md
+*_舊版備份_*.md
+*_backup_*.md
+
+# 舊版本備份（保留最新2個版本）
+index_v1.0.*.html
+
+# 測試文件
+test.html
+test_*.mjs
+*_test.mjs
+
+# 構建產物
+dist/
+build/
+
+# 臨時分析文件
 讓CGATGPT GEMINU 幫忙分析圖片咒語 建檔.txt
+
+# 清理報告
+清理建議報告.md
+

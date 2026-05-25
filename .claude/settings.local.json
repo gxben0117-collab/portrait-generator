@@ -63,7 +63,10 @@
       "Bash(node -e \"const html = require\\('fs'\\).readFileSync\\('index.html', 'utf-8'\\); const match = html.match\\(/const CATS = \\(\\\\[[\\\\s\\\\S]*?\\\\]\\);/\\); if \\(match\\) { const cats = eval\\(match[1]\\); console.log\\(cats.length\\); }\")",
       "Bash(git commit -m 'fix: 修正部署工作流程觸發分支為 main *)",
       "Bash(node scripts/add_succubus_series.mjs)",
-      "Bash(node scripts/add_fallen_angel_series.mjs)"
+      "Bash(node scripts/add_fallen_angel_series.mjs)",
+      "Bash(node scripts/add_cup_size.mjs)",
+      "Bash(grep -c '\"id\": \"__TRACKED_VAR__\"' index.html)",
+      "Bash(awk '/const PARENT_CATEGORIES = \\\\[/,/^\\\\];$/ {print NR\": \"$0}' \"c:\\\\AIProjects\\\\001專案完成區\\\\美片咒語產生器\\\\index.html\")"
     ]
   }
 }
