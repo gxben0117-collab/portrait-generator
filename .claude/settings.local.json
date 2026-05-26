@@ -72,7 +72,8 @@
       "Bash(node scripts/enhance_fallen_angel_outfits.mjs)",
       "Bash(node scripts/add_cupsize_and_poses.mjs)",
       "Bash(node scripts/add_safe_poses_all_series.mjs)",
-      "Bash(cd \"c:\\\\AIProjects\\\\001專案完成區\\\\美片咒語產生器\" && mkdir -p backup_versions && mv index_v*.html backup_versions/ && git add backup_versions/ && git add -u)"
+      "Bash(cd \"c:\\\\AIProjects\\\\001專案完成區\\\\美片咒語產生器\" && mkdir -p backup_versions && mv index_v*.html backup_versions/ && git add backup_versions/ && git add -u)",
+      "Bash(git commit -m 'fix: 恢復 index.html 到正常工作狀態 \\(v1.3.2\\) *)"
     ],
     "additionalDirectories": [
       "C:\\AIProjects\\001專案完成區\\美片咒語產生器"
