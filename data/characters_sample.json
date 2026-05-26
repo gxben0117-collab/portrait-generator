@@ -1,0 +1,623 @@
+[
+  {
+    "id": "cyber_01",
+    "category": "科幻賽博",
+    "theme": "新東京霓虹機械偶像",
+    "themeValid": true,
+    "themeLength": 9,
+    "outfit": {
+      "fabric": "transparent plastic material",
+      "embroidery": "",
+      "metal": "metal waist belt and glowing headphones",
+      "jewelry": "",
+      "headpiece": "",
+      "texture": "",
+      "silhouette": "black-pink idol combat suit",
+      "craftsmanship": "handcrafted couture detailing, realistic fabric weight, cinematic costume realism",
+      "raw": "黑粉雙色未來偶像戰鬥服，內層為黑色彈性緊身衣帶有電路紋理印花，中層粉色硬質塑膠護甲覆蓋胸部與肩膀形成機械感輪廓，外層透明塑膠材質披風帶有霓虹光條裝飾，金屬腰帶使用發光LED扣件與電子顯示屏，發光耳機頭戴裝置帶有藍色光環與天線結構，手臂配有金屬護腕與電子手環，靴子為黑色高筒戰鬥靴帶有粉色霓虹光條，整體服裝具有真實布料與塑膠材質的重量感與未來科技質感"
+    },
+    "makeup": {
+      "description": "natural clean makeup: barely visible complexion polish, natural brows, natural untouched eyelashes, nude-pink lip color, realistic everyday appearance while preserving all original facial details",
+      "code": "natural_clean",
+      "hairstyle": "",
+      "expression": "neutral",
+      "cinematicRealism": "realistic cinematic makeup, surface-only application, preserving original facial structure",
+      "raw": "自然清透底妝保持真實皮膚紋理，自然眉型，未經修飾的自然睫毛，裸粉色唇妝，保持日常真實妝感與中性神態，黑色中長直髮搭配粉色挑染，整體維持電影級真實妝容而非AI美女化"
+    },
+    "scene": {
+      "foreground": "natural foreground elements",
+      "midground": "cyberpunk city night scene, giant neon advertisements and rainy night streets forming future urban space, woman standing at street center naturally looking back toward camera, full-body wide-angle composition, color palette dominated by peach pink, neon blue, deep black",
+      "background": "cinematic background atmosphere",
+      "lighting": "ls_cinematic",
+      "atmosphere": "at_clear",
+      "raw": "前景為雨後街道反射的霓虹光影與漂浮水氣，中景為賽博朋克城市街道中心，女性自然站立回望鏡頭，巨型霓虹廣告牌與雨夜街景形成未來都市空間，遠景為延伸至天際的摩天大樓群與飛行載具光軌，整體色調以蜜桃粉、霓虹藍、深黑為主，保持真實空間透視與電影級攝影感"
+    },
+    "cupSize": "",
+    "technical": {
+      "ratio": "r_34",
+      "lens": "l_50",
+      "angle": "sanfen",
+      "cameraLanguage": "cl_magazine",
+      "atmosphere": "at_clear",
+      "lighting": "ls_cinematic"
+    },
+    "action": "女性緩慢行走於雨後街道中心，自然回望鏡頭，右手輕觸發光耳機裝置，左手自然垂放，透明披風隨步伐輕微飄動，霓虹光條隨動作閃爍，保持臉部清晰可見，頭頸肩自然對齊，展現電影感微動作而非擺拍感",
+    "composition": "",
+    "metadata": {
+      "icon": "🎭",
+      "template": "default",
+      "series": "賽博朋克",
+      "uiStatus": "core",
+      "sortWeight": 1000,
+      "sourceType": "manual",
+      "sourceBatch": "core"
+    },
+    "risks": {
+      "identityMode": "identity_sovereign",
+      "identityRiskScore": 0,
+      "styleContaminationRisk": "low",
+      "beautyTemplateRisk": "low",
+      "archetypeFaceRisk": "low",
+      "editorialBeautyRisk": "low",
+      "dynamicAngleIdentityRisk": "low",
+      "headScaleRisk": "low",
+      "makeupRestructureRisk": "low",
+      "rewriteNeeded": false,
+      "riskFlags": []
+    },
+    "categoryOld": "賽博朋克",
+    "race": "人類"
+  },
+  {
+    "id": "dl_17",
+    "category": "異世界奇幻文學",
+    "theme": "星辰隕落",
+    "themeValid": false,
+    "themeLength": 4,
+    "outfit": {
+      "fabric": "midnight blue velvet dress covered in dark sequence that catch the starlight",
+      "embroidery": "",
+      "metal": "",
+      "jewelry": "",
+      "headpiece": "",
+      "texture": "",
+      "silhouette": "",
+      "craftsmanship": "handcrafted couture detailing, realistic fabric weight, cinematic costume realism",
+      "raw": "午夜藍天鵝絨長裙，內層為深藍色絲綢襯裙帶有星光刺繡，中層厚重天鵝絨主體長袍覆蓋深色亮片捕捉星光反射，外層透明深藍薄紗披肩帶有銀色星辰圖案，腰部使用黑曜石腰封與古銅金屬扣件，頸部配有流星造型項鍊與深藍寶石吊墜，頭飾為銀色星冠帶有墜落流星裝飾，手臂配有深藍絲綢長手套與銀色手鐲，整體服裝具有真實天鵝絨重量與奇幻魔物的神秘質感"
+    },
+    "makeup": {
+      "description": "demon sovereign makeup: dark regal contour kept surface-only, blackened red smoky eyes, controlled blood-red lip, subtle obsidian and antique-gold highlights, commanding underworld authority without facial reshaping",
+      "code": "demon_lord",
+      "hairstyle": "",
+      "expression": "neutral",
+      "cinematicRealism": "realistic cinematic makeup, surface-only application, preserving original facial structure",
+      "raw": "魔物君主妝容保持表面妝感，深色輪廓修容不改變骨相，黑紅煙燻眼妝，控制性血紅唇妝，細微黑曜石與古銅金高光，展現冥界威嚴而不重塑臉部結構，黑色長直髮帶有深藍挑染，整體維持電影級奇幻妝容"
+    },
+    "scene": {
+      "foreground": "natural foreground elements",
+      "midground": "open stone ruin temple",
+      "background": "ancient sky filled with long white shooting star streaks across dark navy sky",
+      "lighting": "ls_cinematic",
+      "atmosphere": "at_clear",
+      "raw": "前景為漂浮的星光粒子與古老石柱碎片，中景為開放式石造廢墟神殿，女性站立於神殿中央，遠景為古老天空中長條白色流星劃過深藍夜空形成壯觀星辰隕落景象，整體保持真實空間透視與電影級奇幻攝影感"
+    },
+    "cupSize": "F",
+    "technical": {
+      "ratio": "r_916",
+      "lens": "l_50",
+      "angle": "huanjing",
+      "cameraLanguage": "cl_magazine",
+      "atmosphere": "at_clear",
+      "lighting": "ls_cinematic"
+    },
+    "action": "女性站立於廢墟神殿中央，雙手輕撫天鵝絨長裙，頭部微微仰起凝視流星，深藍薄紗披肩隨微風飄動，星光粒子環繞身體流動，自然呼吸帶動服裝細微起伏，保持臉部清晰可見，展現魔物君主的威嚴與孤寂感",
+    "composition": "identity-readable three-quarter body view without enlarging the head, realistic head-to-body proportion, natural face-neck-shoulder alignment, no forced perspective",
+    "metadata": {
+      "icon": "🎭",
+      "template": "default",
+      "series": "暗夜魔女",
+      "uiStatus": "core",
+      "sortWeight": 1000,
+      "sourceType": "manual",
+      "sourceBatch": "core"
+    },
+    "risks": {
+      "identityMode": "identity_sovereign",
+      "identityRiskScore": 0,
+      "styleContaminationRisk": "low",
+      "beautyTemplateRisk": "low",
+      "archetypeFaceRisk": "low",
+      "editorialBeautyRisk": "low",
+      "dynamicAngleIdentityRisk": "low",
+      "headScaleRisk": "low",
+      "makeupRestructureRisk": "low",
+      "rewriteNeeded": false,
+      "riskFlags": []
+    },
+    "categoryOld": "暗夜魔女",
+    "race": "魔物"
+  },
+  {
+    "id": "hs_15",
+    "category": "婚紗系列",
+    "theme": "星空璀璨",
+    "themeValid": false,
+    "themeLength": 4,
+    "outfit": {
+      "fabric": "majestic midnight-blue velvet and satin bridal ballgown dress covered in thousands of tiny rhinestones sequence embedded into fabric layers that catch and reflect the starlight reflections beautifully look style, long sweeping fabric tail train dragging on stone flagstones lane path layout",
+      "embroidery": "",
+      "metal": "",
+      "jewelry": "",
+      "headpiece": "",
+      "texture": "",
+      "silhouette": "",
+      "craftsmanship": "handcrafted couture detailing, realistic fabric weight, cinematic costume realism",
+      "raw": "華麗午夜藍天鵝絨緞面婚紗禮服，內層為深藍絲綢襯裙帶有星光刺繡，中層厚重天鵝絨主體禮服鑲嵌數千顆細小水鑽與亮片捕捉星光反射，外層深藍緞面拖尾長裙鋪陳於石板路面，腰部使用銀色金屬腰封與水晶扣件，頸部配有鑽石項鍊與藍寶石吊墜，頭部配有銀色星冠與透明薄紗頭紗，手臂配有透明薄紗長袖與銀色手鐲，整體服裝具有真實天鵝絨與緞面的重量感與星空婚紗的夢幻質感"
+    },
+    "makeup": {
+      "description": "minimal botanical makeup: soft petal blush as surface color only, subtle botanical surface color around the eyes with no fantasy-eye styling, natural lip color matching the reference person, ordinary real-person forest snapshot naturalness",
+      "code": "flower_fairy",
+      "hairstyle": "",
+      "expression": "neutral",
+      "cinematicRealism": "realistic cinematic makeup, surface-only application, preserving original facial structure",
+      "raw": "極簡植物系妝容，柔和花瓣腮紅僅作表面色彩，眼周細微植物系表面色彩不做奇幻眼妝造型，自然唇色匹配真人膚色，保持普通真人森林快照的自然感，深棕色長捲髮帶有自然波浪，整體維持電影級自然妝容"
+    },
+    "scene": {
+      "foreground": "natural foreground elements",
+      "midground": "open castle balcony terrace deck overlook overlooking a vast dark fantasy city, mystical serene vibe theme formatting",
+      "background": "thousands of tiny glowing window lights below blurred backdrop skyline panorama, clear night sky sky filled with dense milky way galaxy view and faint pink auroras bands lines view",
+      "lighting": "ls_cinematic",
+      "atmosphere": "at_clear",
+      "raw": "前景為石造陽台欄杆與漂浮星光粒子，中景為開放式城堡陽台露台，女性站立於陽台邊緣俯瞰，遠景為廣闊黑暗奇幻城市中數千盞發光窗戶形成模糊天際線全景，清澈夜空中密集銀河星系與淡粉色極光帶交織，整體保持神秘寧靜氛圍與電影級星空攝影感"
+    },
+    "cupSize": "",
+    "technical": {
+      "ratio": "r_916",
+      "lens": "l_50",
+      "angle": "huanjing",
+      "cameraLanguage": "cl_magazine",
+      "atmosphere": "at_clear",
+      "lighting": "ls_cinematic"
+    },
+    "action": "女性站立於城堡陽台邊緣，雙手輕扶石造欄杆俯瞰城市，頭部緩慢轉向鏡頭，深藍緞面拖尾長裙隨微風輕微擺動，透明薄紗頭紗飄動，水鑽捕捉星光閃爍，自然呼吸帶動禮服細微起伏，保持臉部清晰可見，展現夢幻婚紗的浪漫與寧靜感",
+    "composition": "mobile vertical environmental full or three-quarter composition with clear face, realistic head-to-body proportion, natural face-neck-shoulder alignment, complete costume/body readability, and enough scene depth behind the subject; no forced perspective and no oversized head",
+    "metadata": {
+      "icon": "🎭",
+      "template": "default",
+      "series": "藍色婚紗",
+      "uiStatus": "core",
+      "sortWeight": 1000,
+      "sourceType": "manual",
+      "sourceBatch": "core"
+    },
+    "risks": {
+      "identityMode": "identity_sovereign",
+      "identityRiskScore": 0,
+      "styleContaminationRisk": "low",
+      "beautyTemplateRisk": "low",
+      "archetypeFaceRisk": "low",
+      "editorialBeautyRisk": "low",
+      "dynamicAngleIdentityRisk": "low",
+      "headScaleRisk": "low",
+      "makeupRestructureRisk": "low",
+      "rewriteNeeded": false,
+      "riskFlags": []
+    },
+    "categoryOld": "藍色婚紗",
+    "race": "人類"
+  },
+  {
+    "id": "rev_079",
+    "category": "世界風情",
+    "theme": "星夜金紗 · 水岸攜燈",
+    "themeValid": true,
+    "themeLength": 8,
+    "outfit": {
+      "fabric": "floor-length dark navy silk lehenga with dense gold embroidery patterns",
+      "embroidery": "",
+      "metal": "long translucent gold-tipped veil draped over head and flowing behind, layered gold chain jewelry at waist, holding an ornate golden lantern with warm flame inside",
+      "jewelry": "",
+      "headpiece": "",
+      "texture": "",
+      "silhouette": "",
+      "craftsmanship": "handcrafted couture detailing, realistic fabric weight, cinematic costume realism",
+      "raw": "深海軍藍絲綢長裙禮服，內層為金色絲綢襯裙帶有密集金線刺繡圖案，中層深藍絲綢主體長裙覆蓋精緻金色刺繡花紋，外層透明金邊薄紗披肩帶有流蘇裝飾，腰部使用金色金屬腰帶與寶石扣件，頸部配有金色項鍊與藍寶石吊墜，頭部配有金色頭飾與薄紗頭紗，手臂配有金色手鐲與戒指，整體服裝具有真實絲綢重量感與印度宮廷禮服的華麗質感"
+    },
+    "makeup": {
+      "description": "soft oriental minimalist makeup: natural translucent skin, barely-there brow fill, warm neutral eye shadow with soft eyeliner, soft pink or coral lip, understated refined elegance",
+      "code": "oriental",
+      "hairstyle": "",
+      "expression": "neutral",
+      "cinematicRealism": "realistic cinematic makeup, surface-only application, preserving original facial structure",
+      "raw": "柔和東方極簡妝容，自然透明肌膚，細微眉毛填充，溫暖中性眼影搭配柔和眼線，柔和粉色或珊瑚色唇妝，低調精緻優雅感，黑色長直髮帶有自然光澤，整體維持電影級自然妝容"
+    },
+    "scene": {
+      "foreground": "natural foreground elements",
+      "midground": "ornate ancient palace complex glowing with warm amber light reflected perfectly in a still waterway at night, decorative stone bridge railing in foreground with lantern posts, majestic illuminated domes and spires in the distance",
+      "background": "Milky Way arc visible across a deep blue starlit sky",
+      "lighting": "ls_cinematic",
+      "atmosphere": "at_moody",
+      "raw": "前景為靜止水道中的倒影與漂浮花瓣，中景為華麗古代宮殿建築群，女性站立於水岸邊手持燈籠，溫暖琥珀色燈光完美倒映於靜止水道中，遠景為延伸的宮殿建築與星夜天空，整體保持真實空間透視與電影級宮廷攝影感"
+    },
+    "cupSize": "",
+    "technical": {
+      "ratio": "r_23",
+      "lens": "l_50",
+      "angle": "quan",
+      "cameraLanguage": "cl_fashion",
+      "atmosphere": "at_moody",
+      "lighting": "ls_cinematic"
+    },
+    "action": "女性站立於水岸邊，右手持燈籠輕輕舉起，左手輕撫金色刺繡長裙，頭部微微側向鏡頭，深藍絲綢長裙與金邊薄紗披肩隨微風飄動，燈光在水面形成倒影，自然呼吸帶動服裝細微起伏，保持臉部清晰可見，展現印度宮廷的優雅與神秘感",
+    "composition": "full-body vertical documentary shot with the palace complex centered behind over the water reflection, starry sky filling the upper frame, realistic head-to-body proportion, natural face-neck-shoulder alignment, no forced perspective",
+    "metadata": {
+      "icon": "🎭",
+      "template": "default",
+      "series": "異域夜宮",
+      "uiStatus": "core",
+      "sortWeight": 1000,
+      "sourceType": "manual",
+      "sourceBatch": "core"
+    },
+    "risks": {
+      "identityMode": "identity_sovereign",
+      "identityRiskScore": 0,
+      "styleContaminationRisk": "low",
+      "beautyTemplateRisk": "low",
+      "archetypeFaceRisk": "low",
+      "editorialBeautyRisk": "low",
+      "dynamicAngleIdentityRisk": "low",
+      "headScaleRisk": "low",
+      "makeupRestructureRisk": "low",
+      "rewriteNeeded": false,
+      "riskFlags": []
+    },
+    "categoryOld": "異域夜宮",
+    "race": "人類"
+  },
+  {
+    "id": "rev_088",
+    "category": "動漫遊戲",
+    "theme": "粉霧星光 · 新季主打",
+    "themeValid": true,
+    "themeLength": 8,
+    "outfit": {
+      "fabric": "stacked silver chain necklaces",
+      "embroidery": "",
+      "metal": "",
+      "jewelry": "",
+      "headpiece": "",
+      "texture": "",
+      "silhouette": "shiny pale-pink oversized track jacket, white crop tank with star graphic print, coordinating cargo-style bottoms, holographic iridescent shoulder bag",
+      "craftsmanship": "handcrafted couture detailing, realistic fabric weight, cinematic costume realism",
+      "raw": "淺粉色光澤運動外套，內層為白色短版背心帶有星星圖案印花，中層淺粉色超大尺寸運動外套帶有光澤面料與拉鍊裝飾，下身搭配協調工裝褲帶有多口袋設計，腰部使用白色腰帶與金屬扣件，頸部配有銀色項鍊與星星吊墜，頭部配有粉色棒球帽，腳部配有白色運動鞋帶有粉色裝飾，整體服裝具有真實運動服飾的輕盈感與動漫時尚的活力質感"
+    },
+    "makeup": {
+      "description": "natural clean makeup: barely visible complexion polish, natural brows, natural untouched eyelashes, nude-pink lip color, realistic everyday appearance while preserving all original facial details",
+      "code": "natural_clean",
+      "hairstyle": "",
+      "expression": "neutral",
+      "cinematicRealism": "realistic cinematic makeup, surface-only application, preserving original facial structure",
+      "raw": "自然清透底妝保持真實皮膚紋理，自然眉型，未經修飾的自然睫毛，裸粉色唇妝，保持日常真實妝感與中性神態，黑色短髮帶有粉色挑染，整體維持電影級真實妝容而非AI美女化"
+    },
+    "scene": {
+      "foreground": "natural foreground elements",
+      "midground": "glossy commercial fashion poster background with sparkling lavender-pink gradient, scattered holographic star and heart glitter elements, magazine-style layout with decorative sticker motifs, styled like a K-pop idol season campaign backdrop",
+      "background": "cinematic background atmosphere",
+      "lighting": "ls_cinematic",
+      "atmosphere": "at_clear",
+      "raw": "前景為漂浮的全息星光粒子與光斑，中景為光澤商業時尚海報背景，淡紫粉色漸層背景，女性自然站立展示服裝，遠景為散落的全息星星裝飾與柔和光暈，整體保持時尚海報攝影感與電影級商業攝影質感"
+    },
+    "cupSize": "",
+    "technical": {
+      "ratio": "r_23",
+      "lens": "l_50",
+      "angle": "sanfen",
+      "cameraLanguage": "cl_fashion",
+      "atmosphere": "at_clear",
+      "lighting": "ls_cinematic"
+    },
+    "action": "女性自然站立展示服裝，右手插入工裝褲口袋，左手輕觸粉色棒球帽，頭部微微側向鏡頭帶有自信微笑，淺粉色運動外套隨身體微動，全息星光粒子環繞飄動，保持臉部清晰可見，展現動漫時尚的活力與青春感",
+    "composition": "three-quarter upper-body commercial portrait centered in the sparkle background, decorative text and badge elements at poster margins, realistic head-to-body proportion, natural face-neck-shoulder alignment, no forced perspective",
+    "metadata": {
+      "icon": "🎭",
+      "template": "default",
+      "series": "韓系偶像",
+      "uiStatus": "core",
+      "sortWeight": 1000,
+      "sourceType": "manual",
+      "sourceBatch": "core"
+    },
+    "risks": {
+      "identityMode": "identity_sovereign",
+      "identityRiskScore": 0,
+      "styleContaminationRisk": "low",
+      "beautyTemplateRisk": "low",
+      "archetypeFaceRisk": "low",
+      "editorialBeautyRisk": "low",
+      "dynamicAngleIdentityRisk": "low",
+      "headScaleRisk": "low",
+      "makeupRestructureRisk": "low",
+      "rewriteNeeded": false,
+      "riskFlags": []
+    },
+    "categoryOld": "韓系偶像",
+    "race": "人類"
+  },
+  {
+    "id": "tv_22",
+    "category": "熱播影視劇",
+    "theme": "星漢燦爛",
+    "themeValid": false,
+    "themeLength": 4,
+    "outfit": {
+      "fabric": "comfortable plain pastel blue cotton daily robe dress clothing hanfu package with single high-quality fabric cord waist tie fold",
+      "embroidery": "",
+      "metal": "",
+      "jewelry": "",
+      "headpiece": "",
+      "texture": "",
+      "silhouette": "",
+      "craftsmanship": "handcrafted couture detailing, realistic fabric weight, cinematic costume realism",
+      "raw": "舒適素色淺藍棉質日常漢服長袍，內層為白色棉質襯衣帶有簡約領口，中層淺藍色棉質主體長袍帶有單一高品質刺繡裝飾，外層淺色披帛自然垂落，腰部使用淺色布帶與簡約扣件，頸部配有簡約玉墜項鍊，頭部配有簡約髮簪，手臂自然垂放，整體服裝具有真實棉質布料的舒適感與日常漢服的樸實質感"
+    },
+    "makeup": {
+      "description": "natural clean makeup: barely visible complexion polish, natural brows, natural untouched eyelashes, nude-pink lip color, realistic everyday appearance while preserving all original facial details",
+      "code": "natural_clean",
+      "hairstyle": "",
+      "expression": "neutral",
+      "cinematicRealism": "realistic cinematic makeup, surface-only application, preserving original facial structure",
+      "raw": "自然清透底妝保持真實皮膚紋理，自然眉型，未經修飾的自然睫毛，裸粉色唇妝，保持日常真實妝感與中性神態，黑色長直髮簡單束起，整體維持電影級真實妝容而非AI美女化"
+    },
+    "scene": {
+      "foreground": "natural foreground elements",
+      "midground": "old country fort wooden courtyard house backyard lane path, hanging yellow corn bundles, woven willow basket boxes",
+      "background": "morning clear sun flare",
+      "lighting": "ls_cinematic",
+      "atmosphere": "at_warm",
+      "raw": "前景為懸掛的黃色玉米束與編織柳條籃，中景為古老鄉村堡壘木造庭院後院小徑，女性自然站立於庭院中，遠景為延伸的木造建築與鄉村田園景色，整體保持真實鄉村生活空間透視與電影級古裝劇攝影感"
+    },
+    "cupSize": "",
+    "technical": {
+      "ratio": "r_34",
+      "lens": "l_50",
+      "angle": "sanfen",
+      "cameraLanguage": "cl_magazine",
+      "atmosphere": "at_warm",
+      "lighting": "ls_cinematic"
+    },
+    "action": "女性站立於庭院小徑，右手輕提淺藍色長袍下擺，左手自然垂放，頭部微微低垂帶有溫柔神態，淺色披帛隨微風輕輕飄動，陽光灑落在棉質長袍上形成自然光影，保持臉部清晰可見，展現日常漢服的樸實與寧靜感",
+    "composition": "vertical three-quarter composition with clear face, realistic head-to-body proportion, natural face-neck-shoulder alignment, complete costume/body readability, and enough scene depth behind the subject; no forced perspective and no oversized head",
+    "metadata": {
+      "icon": "🎭",
+      "template": "default",
+      "series": "程少商",
+      "uiStatus": "core",
+      "sortWeight": 1000,
+      "sourceType": "manual",
+      "sourceBatch": "core"
+    },
+    "risks": {
+      "identityMode": "identity_sovereign",
+      "identityRiskScore": 0,
+      "styleContaminationRisk": "low",
+      "beautyTemplateRisk": "low",
+      "archetypeFaceRisk": "low",
+      "editorialBeautyRisk": "low",
+      "dynamicAngleIdentityRisk": "low",
+      "headScaleRisk": "low",
+      "makeupRestructureRisk": "low",
+      "rewriteNeeded": false,
+      "riskFlags": []
+    },
+    "categoryOld": "程少商",
+    "race": "人類"
+  },
+  {
+    "id": "wx_16",
+    "category": "中國古典文學",
+    "theme": "星宿毒辣",
+    "themeValid": false,
+    "themeLength": 4,
+    "outfit": {
+      "fabric": "stylish dark purple silk robe dress with black lace edge details",
+      "embroidery": "",
+      "metal": "",
+      "jewelry": "",
+      "headpiece": "",
+      "texture": "",
+      "silhouette": "holding a small decorative glass bottle vial prop safely",
+      "craftsmanship": "handcrafted couture detailing, realistic fabric weight, cinematic costume realism",
+      "raw": "時尚深紫色絲綢長袍，內層為黑色絲綢襯裙帶有暗紋刺繡，中層深紫色絲綢主體長袍帶有黑色蕾絲邊緣裝飾，外層透明黑紗披肩自然垂落，腰部使用黑色絲帶與玉石扣件，頸部配有銀色項鍊與紫水晶吊墜，手持小型裝飾玻璃瓶，頭部配有簡約髮簪，整體服裝具有真實絲綢重量感與狐妖魅惑的神秘質感"
+    },
+    "makeup": {
+      "description": "fox enchantress seductive makeup: sultry smoky eye in amber and deep brown, slanted eyeliner for foxy eye shape, bold deep wine or crimson lip, warm golden shimmer on skin, dangerously beautiful, eye-direction styling as surface liner only without reshaping original eye structure",
+      "code": "fox",
+      "hairstyle": "",
+      "expression": "neutral",
+      "cinematicRealism": "realistic cinematic makeup, surface-only application, preserving original facial structure",
+      "raw": "狐妖魅惑誘惑妝容，魅惑煙燻眼妝使用琥珀色與深棕色，傾斜眼線營造狐狸眼效果，深紅唇妝，細微金色高光，展現妖媚誘惑感而不重塑臉部結構，黑色長直髮帶有自然光澤，整體維持電影級奇幻妝容"
+    },
+    "scene": {
+      "foreground": "natural foreground elements",
+      "midground": "deep swamp jungle grove forest at night, strange green glowing moss patches on tree trunks, foggy floor ground layers atmosphere",
+      "background": "cinematic background atmosphere",
+      "lighting": "ls_cinematic",
+      "atmosphere": "at_clear",
+      "raw": "前景為漂浮的綠色發光霧氣與沼澤植物，中景為深沼澤叢林樹林夜景，女性站立於樹林中，奇異綠色發光苔蘚斑塊覆蓋樹幹，遠景為霧氣瀰漫的沼澤深處與神秘光源，整體保持真實沼澤空間透視與電影級奇幻攝影感"
+    },
+    "cupSize": "",
+    "technical": {
+      "ratio": "r_34",
+      "lens": "l_50",
+      "angle": "banshen",
+      "cameraLanguage": "cl_fashion",
+      "atmosphere": "at_clear",
+      "lighting": "ls_cinematic"
+    },
+    "action": "女性站立於沼澤樹林中，右手持小型裝飾玻璃瓶輕輕舉起觀察，左手輕撫深紫色絲綢長袍，頭部微微側向鏡頭帶有魅惑眼神，透明黑紗披肩隨霧氣飄動，綠色發光霧氣環繞身體流動，保持臉部清晰可見，展現狐妖的魅惑與神秘感",
+    "composition": "identity-readable three-quarter body view without enlarging the head, realistic head-to-body proportion, natural face-neck-shoulder alignment, no forced perspective",
+    "metadata": {
+      "icon": "🎭",
+      "template": "default",
+      "series": "阿紫",
+      "uiStatus": "core",
+      "sortWeight": 1000,
+      "sourceType": "manual",
+      "sourceBatch": "core"
+    },
+    "risks": {
+      "identityMode": "identity_sovereign",
+      "identityRiskScore": 0,
+      "styleContaminationRisk": "low",
+      "beautyTemplateRisk": "low",
+      "archetypeFaceRisk": "low",
+      "editorialBeautyRisk": "low",
+      "dynamicAngleIdentityRisk": "low",
+      "headScaleRisk": "low",
+      "makeupRestructureRisk": "low",
+      "rewriteNeeded": false,
+      "riskFlags": []
+    },
+    "categoryOld": "阿紫",
+    "race": "人類"
+  },
+  {
+    "id": "gz_09",
+    "category": "中國朝代古裝",
+    "theme": "明窗抹香",
+    "themeValid": false,
+    "themeLength": 4,
+    "outfit": {
+      "fabric": "simple comfortable pastel grey and pink linen daily clothing dress song dynasty style jacket package",
+      "embroidery": "",
+      "metal": "",
+      "jewelry": "",
+      "headpiece": "",
+      "texture": "",
+      "silhouette": "",
+      "craftsmanship": "handcrafted couture detailing, realistic fabric weight, cinematic costume realism",
+      "raw": "簡約舒適淺灰粉色亞麻日常服飾，內層為白色棉質襯衣帶有簡約領口，中層淺灰粉色亞麻宋代風格短外套帶有簡約扣件，下身搭配淺色長裙，腰部使用淺色布帶，頸部配有簡約玉墜項鍊，頭部配有簡約髮簪，手臂自然垂放，整體服裝具有真實亞麻布料的舒適感與宋代日常服飾的樸實質感"
+    },
+    "makeup": {
+      "description": "classical Tang-era red makeup: pale powder base, defined arch brows, bold vermillion red lip, subtle eye contour, traditional court beauty aesthetic",
+      "code": "gudian_hong",
+      "hairstyle": "",
+      "expression": "neutral",
+      "cinematicRealism": "realistic cinematic makeup, surface-only application, preserving original facial structure",
+      "raw": "古典唐代紅妝，淡粉底妝，明確弓形眉，大膽朱紅唇妝，細微腮紅，保持古典妝容而不改變骨相，黑色長髮簡單盤起，整體維持電影級古典妝容"
+    },
+    "scene": {
+      "foreground": "natural foreground elements",
+      "midground": "cozy vintage living room corner table setup, wooden window panels open overlooking a small bamboo garden backyard",
+      "background": "morning sunbeam line",
+      "lighting": "ls_cinematic",
+      "atmosphere": "at_clear",
+      "raw": "前景為木製窗框與香爐煙霧，中景為溫馨復古起居室角落桌面擺設，女性坐於桌旁，木製窗板打開俯瞰小竹園，遠景為延伸的竹林與庭院景色，整體保持真實居家空間透視與電影級古裝劇攝影感"
+    },
+    "cupSize": "",
+    "technical": {
+      "ratio": "r_34",
+      "lens": "l_50",
+      "angle": "sanfen",
+      "cameraLanguage": "cl_fashion",
+      "atmosphere": "at_clear",
+      "lighting": "ls_cinematic"
+    },
+    "action": "女性坐於木桌旁，右手輕撫桌面香爐，左手自然放於膝上，頭部微微轉向窗外竹園，淺灰粉色亞麻外套隨呼吸細微起伏，香煙裊裊上升，陽光透過木窗灑落形成自然光影，保持臉部清晰可見，展現宋代日常的寧靜與雅致感",
+    "composition": "vertical three-quarter composition with clear face, realistic head-to-body proportion, natural face-neck-shoulder alignment, complete costume/body readability, and enough scene depth behind the subject; no forced perspective and no oversized head",
+    "metadata": {
+      "icon": "🎭",
+      "template": "default",
+      "series": "宋代",
+      "uiStatus": "core",
+      "sortWeight": 1000,
+      "sourceType": "manual",
+      "sourceBatch": "core"
+    },
+    "risks": {
+      "identityMode": "identity_sovereign",
+      "identityRiskScore": 0,
+      "styleContaminationRisk": "low",
+      "beautyTemplateRisk": "low",
+      "archetypeFaceRisk": "low",
+      "editorialBeautyRisk": "low",
+      "dynamicAngleIdentityRisk": "low",
+      "headScaleRisk": "low",
+      "makeupRestructureRisk": "low",
+      "rewriteNeeded": false,
+      "riskFlags": []
+    },
+    "categoryOld": "宋代",
+    "race": "人類"
+  },
+  {
+    "id": "rev_021",
+    "category": "都市時尚",
+    "theme": "高爾夫球場午後 · 球場閒趣",
+    "themeValid": false,
+    "themeLength": 11,
+    "outfit": {
+      "fabric": "",
+      "embroidery": "luxury designer coat",
+      "metal": "",
+      "jewelry": "",
+      "headpiece": "",
+      "texture": "",
+      "silhouette": "high fashion power dressing — sharp tailored suit, premium accessories — high-end contemporary executive styling.",
+      "craftsmanship": "handcrafted couture detailing, realistic fabric weight, cinematic costume realism",
+      "raw": "高級時尚權力穿搭，內層為白色絲綢襯衫帶有精緻領口，中層銳利剪裁西裝外套帶有墊肩設計，外層奢華設計師大衣帶有高級面料與金屬扣件，腰部使用皮革腰帶與金屬扣件，頸部配有奢華珠寶項鍊，手臂配有名牌手錶與手鐲，手持名牌手提包，整體服裝具有真實高級面料的重量感與都市時尚的權力質感"
+    },
+    "makeup": {
+      "description": "bridal surface makeup: champagne shimmer highlights, soft romantic eye definition, rose or nude glossy lip, elegant tenderness — applied as surface cosmetics respecting original skin texture and facial features",
+      "code": "wedding",
+      "hairstyle": "",
+      "expression": "neutral",
+      "cinematicRealism": "realistic cinematic makeup, surface-only application, preserving original facial structure",
+      "raw": "新娘表面妝容，香檳色光澤高光，柔和浪漫眼妝定義，玫瑰色或裸色光澤唇妝，保持優雅妝感而不改變骨相，深棕色波浪長髮，整體維持電影級時尚妝容"
+    },
+    "scene": {
+      "foreground": "natural foreground elements",
+      "midground": "championship golf course in afternoon light, manicured green with distant flags, country club elegance, sporting leisure of the privileged.",
+      "background": "cinematic background atmosphere",
+      "lighting": "ls_cinematic",
+      "atmosphere": "at_clear",
+      "raw": "前景為修剪整齊的草坪與高爾夫球旗，中景為錦標賽高爾夫球場午後光線，女性自然站立於球場中，遠處旗幟飄揚，遠景為鄉村俱樂部優雅建築與延伸的球場景觀，整體保持真實球場空間透視與電影級時尚攝影感"
+    },
+    "cupSize": "",
+    "technical": {
+      "ratio": "r_34",
+      "lens": "l_50",
+      "angle": "sanfen",
+      "cameraLanguage": "cl_magazine",
+      "atmosphere": "at_clear",
+      "lighting": "ls_cinematic"
+    },
+    "action": "女性自然站立於高爾夫球場，右手持名牌手提包，左手輕觸西裝外套領口，頭部微微側向鏡頭帶有自信神態，奢華大衣隨微風輕微擺動，午後陽光灑落在高級面料上形成光澤，保持臉部清晰可見，展現都市時尚的權力與優雅感",
+    "composition": "vertical travel documentary shot with clear face, natural body angle, and enough environmental space to keep the location recognizable. Angle guidance: three-quarter angle, slight natural head turn, most flattering for face and costume., realistic head-to-body proportion, natural face-neck-shoulder alignment, no forced perspective",
+    "metadata": {
+      "icon": "🎭",
+      "template": "default",
+      "series": "都市麗人",
+      "uiStatus": "core",
+      "sortWeight": 1000,
+      "sourceType": "manual",
+      "sourceBatch": "core"
+    },
+    "risks": {
+      "identityMode": "identity_sovereign",
+      "identityRiskScore": 0,
+      "styleContaminationRisk": "low",
+      "beautyTemplateRisk": "low",
+      "archetypeFaceRisk": "low",
+      "editorialBeautyRisk": "low",
+      "dynamicAngleIdentityRisk": "low",
+      "headScaleRisk": "low",
+      "makeupRestructureRisk": "low",
+      "rewriteNeeded": false,
+      "riskFlags": []
+    },
+    "categoryOld": "都市麗人",
+    "race": "人類"
+  }
+]
